@@ -20,9 +20,9 @@ For the past two years, I have been honing my skills in web development and have
 As a dedicated and passionate coder, I am confident in my ability to bring innovation and creativity to any project. I am eager to showcase my skills and experience to potential employers and am dedicated to making a positive impact in the field of computer science and engineering"</h1>
                 </div>
                 <div>
-                <a href="www.linkedin.com/in/alamin2000" target="_blank">
+                
                     <img className="" src={profileImage} alt="profile-pic" />
-                </a>
+                
 
                 {/* <h1 className="text-white mt-4">
                     <Typewriter
