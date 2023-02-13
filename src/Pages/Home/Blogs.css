@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 #my-blogs{
-    background-color: orange;
-    border: 2px dotted white;
+    background-color: #443C68;
+    /* border: 2px dotted white; */
+    padding: 30px;
 }
 .blogs-container{
     overflow: scroll;
@@ -10,15 +11,22 @@
     text-align: left;
 
 }
-.dotted-border{
-    border: 2px solid black;
-}
+
 .blog-question{
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .blog-answer{
     font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    /* font-style: italic; */
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }

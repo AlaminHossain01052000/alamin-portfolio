@@ -4,7 +4,7 @@ import './AboutMe.css';
 const AboutMe = () => {
     return (
         <ScrollAnimation animateIn='fadeIn'>
-            <div className="about-me pt-5 pb-3">
+            <div className="about-me pt-5 pb-3" id="aboutme">
                 <h1 className="m-auto" style={{ color: "#fff" }}>About Me</h1>
                 <hr className="w-25 mb-5 mx-auto glow-line" style={{ border: "1px solid #341f97" }} />
                 <div className="container">

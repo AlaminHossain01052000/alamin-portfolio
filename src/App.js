@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects/Projects';
 import ProjectDetails from './Pages/Projects/ProjectDetails/ProjectDetails';
 import Blogs from './Pages/Home/Blogs';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+      <ScrollToTop/>
     </div>
   );
 }

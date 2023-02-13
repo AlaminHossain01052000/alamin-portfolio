@@ -21,7 +21,7 @@ const ContactMe = () => {
     }
     return (
         <ScrollAnimation animateIn='fadeIn'>
-            <div className="contact-me pt-4 pb-3">
+            <div className="contact-me pt-4 pb-3" id="contactme">
                 <h1 className="m-auto" style={{ color: "#fff" }}>Contact Me</h1>
                 <hr className="w-25 mb-5 mx-auto glow-line" style={{ border: "1px solid #341f97" }} />
                 <Container style={{ backgroundColor: "#443C68" }} className="p-4">

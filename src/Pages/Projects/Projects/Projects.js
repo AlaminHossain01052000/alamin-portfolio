@@ -75,13 +75,16 @@ const Projects = () => {
     return (
         <div>
             <Navigation />
-            <Container>
+            <div className="py-5" style={{background:'#FF5F9E'}}>
+                <Container>
 
-                {
-                    projects.map(project => <ProjectCard project={project}></ProjectCard>)
-                }
+                    {
+                        projects.map(project => <ProjectCard key={project.id} project={project}></ProjectCard>)
+                    }
 
-            </Container>
+                </Container>
+            </div>
+            
         </div>
     );
 };
