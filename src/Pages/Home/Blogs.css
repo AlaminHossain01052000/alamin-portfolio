@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+#my-blogs{
+    background-color: orange;
+    border: 2px dotted white;
+}
+.blogs-container{
+    overflow: scroll;
+    width:100vw;
+    height: 100vh;
+    text-align: left;
+
+}
+.dotted-border{
+    border: 2px solid black;
+}
+.blog-question{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.blog-answer{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.my-nav{
+  position: relative;
+}
+.nav-bar{
+  display: none;
+ 
+}
+.btn-shine{
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  
+  transform: translate(-50%,-50%);
+  /* padding: 12px 48px; */
+  
+  /* background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%); */
+  background: linear-gradient(to right, #ffffff 0, #635985 10%, #ffffff 20%);
+  background-position: 0;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 650;
+  font-size: 14px;
+  
+  
+  /* white-space: nowrap; */
+}  
+@keyframes shine{
+  0%{
+    background-position: 0;
+
+  }
+  60%
+    {
+        background-position: 180px;
+    }
+  100%
+    {
+        background-position: 180px;
+    }
+}
+.nav-routes{
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff !important;
+  font-family: 'Source Sans Pro', sans-serif;
+display: inline;
+}
+@media screen and (max-width: 667px) {
+  .btn-shine{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    
+  }
+}
+@media screen and (max-width: 576px) {
+  /* .nav-routes{
+    display: block;
+  } */
+  .nav-bar{
+    display: block;
+  }
+  #nav-link{
+    display: none;
+  }
+  .btn-shine{
+    
+   
+    display: none !important;
+  }
+}
+

@@ -1,0 +1,85 @@
+.homebanner-description{
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  font-style:italic;
+  font-weight: 400;
+}
+.banner-bg-image{
+  background-image: url('../../Images/coding-man.jpg'); /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* position: relative; */
+}
+.lightDarkbg{
+
+width: 100%;
+height: 100%;
+background-color: #635985;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+/* border-radius: 10px; */
+/* padding-top: 60px; */
+
+}
+.banner-image-holder{
+
+}
+.btn-shine-2{
+  
+  /* position: relative;
+  bottom: 0%;
+  left: 40%; */
+  transform: translate(-50%,-50%);
+  /* padding: 12px 48px; */
+  color: #ffffff;
+  background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+  background-position: 0;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  display: none;
+  /* white-space: nowrap; */
+}  
+@keyframes shine{
+  0%{
+    background-position: 0;
+
+  }
+  60%
+    {
+        background-position: 180px;
+    }
+  100%
+    {
+        background-position: 180px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+  /* .btn-shine-2{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    
+  } */
+}
+@media screen and (max-width: 576px) {
+  .btn-shine-2{
+    
+   position: relative;
+   left: 25%;
+   top: 3%;
+    display: block !important;
+  }
+}

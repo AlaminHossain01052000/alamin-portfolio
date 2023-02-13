@@ -1,0 +1,65 @@
+.project-card{
+   background-color: #18122B;
+   height: 450px;
+    transition: 0.6s;
+    position: relative;
+}
+.project-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+   
+}
+@media screen and (max-width:768px){
+  .project-card{
+    margin: 0 auto;
+  }
+} 
+@media screen and (max-width:420px){
+  .project-card{
+    width: 300px;
+  }
+}
+.icon-container{
+  width: 30px;
+  height: 30px;
+  background-color: #635985;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid #635985;
+  margin-right: 10px;
+
+}
+.icon{
+  position: absolute;
+  top:20%;
+  left:25%;
+  text-decoration: none;
+  color: white;
+}
+.icon:hover{
+  color: #222f3e;
+}
+         
+.btn-details {
+  background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+  margin: 10px auto;
+  padding:8px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-details:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
